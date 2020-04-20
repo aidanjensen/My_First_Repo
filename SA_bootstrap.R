@@ -1,6 +1,7 @@
 #This file contains code to load the data from a .csv downloaded from the "SA Hub for BI Team" Google Sheet
 #This file also contains SA_boostrap() which will run a bootstrap analysis on the SA_data object
 #Finally, this file contains graph.wins() and graph.mean.rsq() which take the output of SA_bootstrap and plot them quickly
+#This code was written by Aidan Jensen :)
 
 require(readr)
 require(ggplot2)
